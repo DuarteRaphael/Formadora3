@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Sistema de Anotações</title>
+  <link rel="stylesheet" href="formadora3.css">
+<script src="formadora3.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>📒 Minhas Anotações</h1>
+    
+    <!-- Campo de texto e botão -->
+    <div>
+      <input type="text" id="notaInput" placeholder="Digite sua anotação...">
+      <button class="btn-add" onclick="adicionarOuEditarNota()">Adicionar</button>
+    </div>
+
+    <!-- Mensagens -->
+    <div id="mensagem"></div>
+
+    <!-- Lista de anotações -->
+    <ul id="listaNotas"></ul>
+  </div>
+</body>
+</html>
